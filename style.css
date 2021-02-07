@@ -17,11 +17,6 @@ body {
     padding-top: 50px;
 }
 
-.important {
-    font-weight: bold;
-    color: #f2c81b;
-}
-
 .message {
     display: block;
     width: 80%;
@@ -218,4 +213,11 @@ button:focus {
     cursor: pointer;
     transition: all 0.3s ease;
     border: 0;
+}
+
+.important {
+    font-weight: bold;
+    color: #f2c81b;
+    opacity: 1;
+    transition: all 0.3s ease;
 }
