@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let clearAll = document.querySelector("#clearAll");
     clearAll.addEventListener("click", () => {
-        localStorage.clear();
+        localStorage.removeItem("todo");
         window.location.reload();
     });
 
